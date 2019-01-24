@@ -3,6 +3,35 @@
 <head>
         <title>Travelling</title>
 <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: -webkit-sticky; /* Safari */
+     position: sticky;
+     top: 0;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    .active {
+  background-color: #4CAF50;
+}
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
@@ -23,7 +52,15 @@ div.desc {
 </style>
 </head>
 <body bgcolor="#E6E6FA">
-
+        <ul>
+                <li><a class="active" href="Home.html">Home</a></li>
+                <li><a href="https://www.Google.com">Travelling Guides</a></li>
+                <li><a href="Attractions.html">places that I visted</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+              </ul>
+              <br /> 
+              <br /> 
 <div class="gallery">
   <a target="_blank" href="ready.jpg">
     <img src="ready.jpg" alt="Cinque Terre" width="600" height="400">
