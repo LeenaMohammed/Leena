@@ -28,6 +28,10 @@
     .active {
   background-color: rgb(97, 14, 46);
 }
+.other_month
+{
+  color: rgb(95, 88, 91);
+}
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
