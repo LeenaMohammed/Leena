@@ -1,0 +1,102 @@
+
+* {
+  box-sizing: border-box;
+}
+.body {
+  font-family: Times New Roman;
+  margin: 0;
+}
+
+.navbar {
+  display: inline;
+  float: right;
+  background-color: rgb(56, 11, 11);
+}
+
+.navbar a {
+  color: rgb(223, 126, 126);
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;  
+}
+
+img{
+  max-width: 100%;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+ /* background: #ddd;*/
+}
+@media screen and (max-width: 100px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+
+.flexbox .flexbox-col {
+  height: 100%;
+  flex: 1;
+}
+#sidebar {
+  background: #f00;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  color: rgb(141, 65, 65);
+  size: "6";
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+  
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.article_h1{
+color: rgb(0, 0, 0);
+Size: "6";
+}
+/*footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.img_div
+{
+  width: 35%
+}
+
+
