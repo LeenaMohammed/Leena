@@ -64,7 +64,14 @@ font-weight: bold;
     background-color: #ddd;
     color: black;
   }
-  
+
+  .img{
+    max-width: 100%;
+  }
+  .img_div
+  {
+    width: 35%
+  }
   .content {
     text-align: center;
     background-color: #ddd;
