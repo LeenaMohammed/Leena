@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+}
+.day{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(50px, auto);
+}
+.other_month
+        {
+    color: rgb(133, 128, 130);
+        }
+        .day {
+/* background-color: ;*/
+color: rgb(97, 14, 46);
+}
+
+.container > div{
+background: #eee;
+padding: 1em;
+text-align:Center;
+} 
+.container > div:nth-child(odd){
+background: #ddd;
+
+}
+.day > div{
+background:rgb(97, 14, 46);
+padding: 1em;
+color: black;
+text-align:Center;
+font-weight: bold;
+} 
+
+
