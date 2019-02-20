@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Assignment 7</title>
+<link rel="stylesheet" type="text/css" href="Stylesheet.css">
+    </head>
+<body bgcolor="#E6E6FA">
+        <ul>
+     <li><a class="active" href="Home.html">Home</a></li>
+     <li><a class="active" href="projects.html">Projects</a></li>
+     <li><a href="Guides.html">Travelling Guides</a></li>
+     <li><a href="Attractions.html">Me around the World</a></li>
+     <li><a href="contact.html">Contact</a></li>
+                
+              </ul> 
+              <h1 align="center">Assignment 7</h1>
+              <h3 align="center">Weight Converter </br> </br></h3>       
+ <p align="center"> 
+  <input id="inputPounds" type="number" placeholder="Enter weight by Pounds" 
+  oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+    </p>
+   <p align="center">Weight by Kilograms is <span id="outputKilograms"></span>
+   </br></br>
+   <button id="mybutton">Press me</button></p>
+   <h3 align="center">Click the button to add numbers to the array.</br>
+   </br>
+   <button onclick="Mynum()">Add numbers</button></br> 
+   </h3>
+   <h3 align="center">Click the Get length button to get the length of the array.<br> </br>
+    <button onclick="Mynumblenght()">Get length </button> </h3>
+    <h3 align="center">Click the For loop button to print numbers from 1-100.</br></br>
+    <button onclick="Myloop()">For loop</button> 
+    <p  id="demo"></p> </h3>
+ 
+              
+       <script>
+              var x = document.getElementById("mybutton");
+     if (x.addEventListener) {
+          x.addEventListener("click", Myalert);
+              } else if (x.attachEvent) {
+     x.attachEvent("onclick", Myalert);
+     }
+              
+ function Myalert() {
+   alert("Thank you for using my weight Converter :)");
+              }
+              
+  function weightConverter(valNum) {
+           document.getElementById("outputKilograms").innerHTML=valNum/2.2046;
+   }
+              
+   var numbers = ["0"];
+   document.getElementById("demo").innerHTML = numbers;
+   
+   function Mynum() {
+     numbers.push("1","2","3", "4", "5","6","7","8","9");
+     document.getElementById("demo").innerHTML = numbers;
+   
+   }
+   function Mynumblenght() {
+     document.getElementById("demo").innerHTML = numbers.length;
+   }
+   
+  function Myloop() {
+  var text = "";
+  var i;
+  for (i = 1; i < 101; i++) {
+    text += "\n " + i ;
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+</body>
+</html>
+
+
