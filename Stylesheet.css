@@ -9,7 +9,7 @@
      position: sticky;
      top: 0;
     }
-    
+   
     li {
       float: left;
     }
@@ -32,6 +32,10 @@
 {
   color: rgb(95, 88, 91);
 }
+table, th, td {
+  border: 1px solid black;
+}
+
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
@@ -52,4 +56,22 @@ div.desc {
 } 
 @media only screen and (max-width: 1400px) {
   }
-  
+  div {
+    background-color: lightgrey;
+    width: 900px;
+    height: 200px;
+    /*border: 25px solid gray;
+    padding: 25px;*/
+    margin: 25px;
+  }
+  .block {
+  display: block;
+  width: 35%;
+  border: none;
+  background-color: #731;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
