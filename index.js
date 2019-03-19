@@ -7,7 +7,7 @@ server.listen(port, ()=>{
     console.log('Server is listening on Port: ${port}');
 });    
 app.get('/', (req, res)=>{
-    res.sendFile(__dirname + '/public/index.html'); 
+    res.sendFile(__dirname + '/public/Cindex.html'); 
     });  
 
 app.get('/javascript', (req, res)=>{
